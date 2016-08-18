@@ -3,6 +3,7 @@
 
 Debian preseed configuration for Ideascube hosts.
 
+With password hashes inside, because Github is know to be harmless, right?
 
 ## Installer
 
