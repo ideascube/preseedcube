@@ -21,3 +21,11 @@ More packages may be installed by the preseed configuration.
 
 Some of them might be preseeded as well. See `debconf-get-selections`
 
+## HOWTO
+
+* Boot on a `debian-8.5.0-amd64-DVD-1.iso` USB stick
+* At the (semi)graphical menu, hit `Esc` to get a boot prompt
+* Enter: `auto url=http://SOMEHOST/go`
+
+The installer will grap the file and use its content.
+
