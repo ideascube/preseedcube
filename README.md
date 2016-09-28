@@ -28,7 +28,11 @@ This repo should be available over HTTP. Sometimes it can be as easy as:
 
     websrv $ python -m SimpleHTTPServer
 
-Then the preseed file is available at `http://websrv:8000/go`. Let's get started:
+Then the preseed file is available at `http://websrv:8000/go`.
+
+It is also available at http://filer.bsf-intranet.org/preseedcube/go
+
+Let's get started:
 
 * Boot on a `debian-8.5.0-amd64-DVD-1.iso` USB stick
 * At the (semi)graphical menu, hit `Esc` to get a boot prompt
