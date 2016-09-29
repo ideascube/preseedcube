@@ -4,6 +4,8 @@
 Debian preseed configuration for Ideascube hosts.
 
 With password hashes inside, because Github is know to be harmless, right?
+Well, ideascube password is `ideascube` and root's is `root`. This makes it
+easier to get into the server to run the bootstrap scripts.
 
 ## Installer
 
