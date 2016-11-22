@@ -32,7 +32,7 @@ This repo should be available over HTTP. Sometimes it can be as easy as:
 
 Then the preseed file is available at `http://websrv:8000/go`.
 
-It is also available at http://filer.bsf-intranet.org/preseedcube/go
+It is also available at http://drop.bsf-intranet.org/preseedcube/go
 
 Let's get started:
 
