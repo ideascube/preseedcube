@@ -34,11 +34,13 @@ Then the preseed file is available at `http://websrv:8000/go`.
 
 It is also available at http://drop.bsf-intranet.org/preseedcube/go
 
+And our LAN exposes it at http://cube/d-i/jessie/go
+
 Let's get started:
 
 * Boot on a `debian-8.5.0-amd64-DVD-1.iso` USB stick
 * At the (semi)graphical menu, hit `Esc` to get a boot prompt
-* Enter: `auto url=http://SOMEHOST/go`
+* Enter: `auto url=cube`
 
 The installer will grab the file and use its content.
 
