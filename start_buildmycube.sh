@@ -14,8 +14,8 @@ chmod +x /tmp/buildMyCube.sh
 
 output=$(/tmp/read_from_amqp.sh)
 
-deviceName=$(echo output | jq '.project_name')
-timeZone=$(echo output | jq '.timezone')
+deviceName=$(echo $output | jq '.project_name')
+timeZone=$(echo $output | jq '.timezone')
 now=$(TZ="Europe/Paris" date +"%F %T,%3N")
 inet_addr=$(ip a s eth0 | awk '/inet /  {print $2}')
 macaddress=$( ip a s eth0 | awk ' /link\/ether/ { print $2 } ' )
