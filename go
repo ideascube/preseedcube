@@ -1,1 +1,1 @@
-d-i/jessie/preseed-ideascube.cfg
+d-i/buster/preseed-ideascube.cfg
