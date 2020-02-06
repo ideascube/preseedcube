@@ -24,6 +24,12 @@ More packages may be installed by the preseed configuration.
 
 Some of them might be preseeded as well. See `debconf-get-selections`
 
+## Debian releases
+
+This repository has been created for Debian 8 Jessie. Support for Buster was
+added later, and is a simple copy of Jessie's. The `go` shortcut points at the
+Buster preseed file.
+
 ## HOWTO
 
 This repo should be available over HTTP. Sometimes it can be as easy as:
@@ -34,7 +40,7 @@ Then the preseed file is available at `http://websrv:8000/go`.
 
 It is also available at http://drop.bsf-intranet.org/preseedcube/go
 
-And our LAN exposes it at http://cube/d-i/jessie/go
+And our LAN exposes it at http://cube/d-i/buster/go
 
 Let's get started:
 
